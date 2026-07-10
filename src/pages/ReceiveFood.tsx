@@ -8,6 +8,9 @@ import { MapPin, Clock, Search, User, History, Upload } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import API from "@/lib/api"; 
 
+// 🌟 Environment Variable configuration for production image parsing
+const backendBaseUrl = import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:5000";
+
 export default function ReceiveFood() {
   const { toast } = useToast();
   const [availableFood, setAvailableFood] = useState<any[]>([]); 
@@ -151,7 +154,7 @@ export default function ReceiveFood() {
                 <div className="w-full h-44 bg-muted overflow-hidden relative border-b">
                   {food.imageUrl ? (
                     <img 
-                      src={`http://localhost:5000/${food.imageUrl}`} 
+                      src={`${backendBaseUrl}/${food.imageUrl}`} 
                       alt={food.name} 
                       className="w-full h-full object-cover"
                       onError={(e) => { (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500"; }}

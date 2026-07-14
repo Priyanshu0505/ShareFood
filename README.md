@@ -138,26 +138,23 @@ JWT_SECRET=Your Secret Key
 # 📸 Application Preview
 
 ### 🏠 Home Page
-
-(Add Screenshot)
+<img width="1896" height="962" alt="image" src="https://github.com/user-attachments/assets/7039adde-0d74-421a-a94f-49300e11b0fa" />
 
 ---
 
 ### 🔑 Login Page
-
-(Add Screenshot)
+<img width="1888" height="957" alt="image" src="https://github.com/user-attachments/assets/d127fd29-4798-4525-8ae8-e7dba7dac337" />
 
 ---
 
 ### 🍽️ Food Donation Page
+<img width="1817" height="947" alt="image" src="https://github.com/user-attachments/assets/1ac211ba-fb97-48ec-a8f3-492708379354" />
 
-(Add Screenshot)
 
 ---
 
 ### 📊 Dashboard
-
-(Add Screenshot)
+<img width="1432" height="812" alt="image" src="https://github.com/user-attachments/assets/7576fb01-647d-4b5f-be29-b7eafd15980d" />
 
 ---
 
